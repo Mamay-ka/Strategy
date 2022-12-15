@@ -45,7 +45,7 @@ public class CommandButtonsPresenter : MonoBehaviour
         CommandExecutorBase<IProduceUnitCommand>;
         if (unitProducer != null)
         {
-            unitProducer.ExecuteSpecificCommand(_context.Inject(new ProduceUnitCommand()));
+            unitProducer.ExecuteSpecificCommand(_context.Inject(new ProduceUnitCommandHeir()));
 
             return;
         }
