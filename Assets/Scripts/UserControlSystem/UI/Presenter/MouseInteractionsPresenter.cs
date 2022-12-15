@@ -6,7 +6,7 @@ public class MouseInteractionsPresenter : MonoBehaviour
 {
     [SerializeField] private Camera _camera;
     [SerializeField] private SelectableValue _selectedObject;
-    //[SerializeField] private EventSystem _eventSystem;
+    [SerializeField] private EventSystem _eventSystem;
 
     //[SerializeField] private Vector3Value _groundClickRMB;
     //[SerializeField] private Transform _groundTransform;
@@ -26,10 +26,10 @@ public class MouseInteractionsPresenter : MonoBehaviour
         {
             return;
         }
-        /*if(_eventSystem.IsPointerOverGameObject())
+        if(_eventSystem.IsPointerOverGameObject())
         {
-            return ;
-        }*/
+           return ;
+        }
         var ray = _camera.ScreenPointToRay(Input.mousePosition);
 
         if(Input.GetMouseButtonUp(0))
