@@ -63,11 +63,11 @@
     <Compile Include="Assets\Scripts\Abstractions\ISelectable.cs" />
     <Compile Include="Assets\Scripts\Abstractions\IMoveCommand.cs" />
     <Compile Include="Assets\Scripts\Abstractions\CommandExecutorBase.cs" />
+    <Compile Include="Assets\Scripts\Abstractions\ScriptableObjectValueBase.cs" />
     <Compile Include="Assets\Scripts\Abstractions\ICommandExecutor.cs" />
     <Compile Include="Assets\Scripts\Abstractions\ICommand.cs" />
     <Compile Include="Assets\Scripts\Abstractions\IHealthHolder.cs" />
     <Compile Include="Assets\Scripts\Abstractions\IAttackable.cs" />
-    <Compile Include="Assets\Scripts\Abstractions\ScriptableObjectValueBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Abstractions\Abstractions.asmdef" />

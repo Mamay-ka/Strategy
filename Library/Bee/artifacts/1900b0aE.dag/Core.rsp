@@ -349,6 +349,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Abstractions.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Utils.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Zenject.ref.dll"
 "Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs"
 "Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs"
@@ -356,6 +357,7 @@
 "Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs"
 "Assets/Scripts/Core/MainBuilding.cs"
 "Assets/Scripts/Core/MainUnit.cs"
+"Assets/Scripts/Core/UnitMovementStop.cs"
 -langversion:9.0
 
 /deterministic

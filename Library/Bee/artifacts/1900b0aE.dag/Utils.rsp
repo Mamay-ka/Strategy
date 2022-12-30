@@ -351,6 +351,10 @@
 "Assets/Scripts/Utils/AssetsInjector/AssetsContext.cs"
 "Assets/Scripts/Utils/AssetsInjector/AssetsInjector.cs"
 "Assets/Scripts/Utils/AssetsInjector/InjectAssetAttribute.cs"
+"Assets/Scripts/Utils/AsyncExtensions.cs"
+"Assets/Scripts/Utils/AwaiterBase.cs"
+"Assets/Scripts/Utils/IAwaitable.cs"
+"Assets/Scripts/Utils/IAwaiter.cs"
 -langversion:9.0
 
 /deterministic

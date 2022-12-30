@@ -46,7 +46,8 @@ public class CommandButtonsView : MonoBehaviour
         _stopButton.GetComponent<Selectable>().interactable = value;
         _produceUnitButton.GetComponent<Selectable>().interactable =
         value;
-    }    public void MakeLayout(IEnumerable<ICommandExecutor> commandExecutors)
+    }
+    public void MakeLayout(IEnumerable<ICommandExecutor> commandExecutors)
     {
         foreach (var currentExecutor in commandExecutors)
         {
@@ -75,4 +76,5 @@ public class CommandButtonsView : MonoBehaviour
             kvp.Value.SetActive(false);
         }
     }
-}
+}
+

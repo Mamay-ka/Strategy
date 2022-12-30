@@ -19,7 +19,8 @@ public class CommandButtonsPresenter : MonoBehaviour
     private void onSelected(ISelectable selectable)
     {
         if (_currentSelectable == selectable)
-        {            return;
+        {
+            return;
         }
         if (_currentSelectable != null)
         {
@@ -35,4 +36,4 @@ public class CommandButtonsPresenter : MonoBehaviour
             _view.MakeLayout(commandExecutors);
         }
     }
-}
+}
