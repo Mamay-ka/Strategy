@@ -347,6 +347,7 @@
 -r:"H:/Unity/Strategy/Strategy/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"H:/Unity/Strategy/Strategy/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Abstractions.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UniRx.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Utils.ref.dll"
@@ -355,8 +356,10 @@
 "Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs"
 "Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs"
 "Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs"
+"Assets/Scripts/Core/CoreInstaller.cs"
 "Assets/Scripts/Core/MainBuilding.cs"
 "Assets/Scripts/Core/MainUnit.cs"
+"Assets/Scripts/Core/TimeModel.cs"
 "Assets/Scripts/Core/UnitMovementStop.cs"
 -langversion:9.0
 

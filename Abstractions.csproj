@@ -60,10 +60,10 @@
     <Compile Include="Assets\Scripts\Abstractions\IAttackCommand.cs" />
     <Compile Include="Assets\Scripts\Abstractions\IProduceUnitCommand.cs" />
     <Compile Include="Assets\Scripts\Abstractions\IStopCommand.cs" />
+    <Compile Include="Assets\Scripts\Abstractions\ITimeModel.cs" />
     <Compile Include="Assets\Scripts\Abstractions\ISelectable.cs" />
     <Compile Include="Assets\Scripts\Abstractions\IMoveCommand.cs" />
     <Compile Include="Assets\Scripts\Abstractions\CommandExecutorBase.cs" />
-    <Compile Include="Assets\Scripts\Abstractions\ScriptableObjectValueBase.cs" />
     <Compile Include="Assets\Scripts\Abstractions\ICommandExecutor.cs" />
     <Compile Include="Assets\Scripts\Abstractions\ICommand.cs" />
     <Compile Include="Assets\Scripts\Abstractions\IHealthHolder.cs" />
@@ -759,6 +759,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{90571F2E-73DD-13BF-3FFE-910FF75A1743}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
     <ProjectReference Include="Utils.csproj">
       <Project>{9D04EA97-FBCD-91DA-AB89-B80393FD686A}</Project>
       <Name>Utils</Name>

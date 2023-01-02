@@ -876,6 +876,10 @@
       <Project>{906CFDEB-A5D8-F079-221A-2C3964591814}</Project>
       <Name>QuickOutline</Name>
     </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{90571F2E-73DD-13BF-3FFE-910FF75A1743}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
     <ProjectReference Include="Core.csproj">
       <Project>{9693B3BF-3EC8-5683-E211-B83C5A77EB1F}</Project>
       <Name>Core</Name>

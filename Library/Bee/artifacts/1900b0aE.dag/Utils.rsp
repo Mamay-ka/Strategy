@@ -346,6 +346,7 @@
 -r:"H:/Unity/Strategy/Strategy/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"H:/Unity/Strategy/Strategy/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"H:/Unity/Strategy/Strategy/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UniRx.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Utils/AssetsInjector/AssetsContext.cs"
@@ -355,6 +356,10 @@
 "Assets/Scripts/Utils/AwaiterBase.cs"
 "Assets/Scripts/Utils/IAwaitable.cs"
 "Assets/Scripts/Utils/IAwaiter.cs"
+"Assets/Scripts/Utils/ScriptableObjectValueBase.cs"
+"Assets/Scripts/Utils/StatefulScriptableObjectValueBase.cs"
+"Assets/Scripts/Utils/StatelessScriptableObjectValueBase.cs"
+"Assets/Scripts/Utils/UniRxExtensions.cs"
 -langversion:9.0
 
 /deterministic

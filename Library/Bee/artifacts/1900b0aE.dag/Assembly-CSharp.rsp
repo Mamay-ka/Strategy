@@ -341,6 +341,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UIModel.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UIPresenter.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UIView.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UniRx.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"

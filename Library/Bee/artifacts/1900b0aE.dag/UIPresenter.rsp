@@ -349,6 +349,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Abstractions.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UIModel.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UIView.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UniRx.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
@@ -357,8 +358,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Zenject.ref.dll"
 "Assets/Scripts/UserControlSystem/UI/Presenter/BottomLefPresenter.cs"
 "Assets/Scripts/UserControlSystem/UI/Presenter/CommandButtonsPresenter.cs"
+"Assets/Scripts/UserControlSystem/UI/Presenter/MenuPresenter.cs"
 "Assets/Scripts/UserControlSystem/UI/Presenter/MouseInteractionsPresenter.cs"
 "Assets/Scripts/UserControlSystem/UI/Presenter/OutlineSelectorPresenter.cs"
+"Assets/Scripts/UserControlSystem/UI/Presenter/TopPanelPresenter.cs"
 -langversion:9.0
 
 /deterministic
