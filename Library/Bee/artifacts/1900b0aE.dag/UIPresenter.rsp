@@ -356,6 +356,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UserControlSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Utils.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Zenject.ref.dll"
+"Assets/Scripts/UserControlSystem/UI/Presenter/BottomCenterPresenter.cs"
 "Assets/Scripts/UserControlSystem/UI/Presenter/BottomLefPresenter.cs"
 "Assets/Scripts/UserControlSystem/UI/Presenter/CommandButtonsPresenter.cs"
 "Assets/Scripts/UserControlSystem/UI/Presenter/MenuPresenter.cs"

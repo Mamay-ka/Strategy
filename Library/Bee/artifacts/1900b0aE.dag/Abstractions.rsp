@@ -356,12 +356,16 @@
 "Assets/Scripts/Abstractions/ICommand.cs"
 "Assets/Scripts/Abstractions/ICommandExecutor.cs"
 "Assets/Scripts/Abstractions/IHealthHolder.cs"
+"Assets/Scripts/Abstractions/IIconHolder.cs"
 "Assets/Scripts/Abstractions/IMoveCommand.cs"
 "Assets/Scripts/Abstractions/IPatrolCommand.cs"
 "Assets/Scripts/Abstractions/IProduceUnitCommand.cs"
 "Assets/Scripts/Abstractions/ISelectable.cs"
 "Assets/Scripts/Abstractions/IStopCommand.cs"
 "Assets/Scripts/Abstractions/ITimeModel.cs"
+"Assets/Scripts/Abstractions/IUnitProducer.cs"
+"Assets/Scripts/Abstractions/IUnitProductionTask.cs"
+"Assets/Scripts/Abstractions/ScriptableObjectValueBase.cs"
 -langversion:9.0
 
 /deterministic

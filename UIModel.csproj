@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\CommandCreators\CommandButtonsModel.cs" />
     <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\SelectableValue.cs" />
     <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\Vector3Value.cs" />
+    <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\BottomCenterModel.cs" />
     <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\CommandCreators\MoveCommandCommandCreator.cs" />
     <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\CommandCreators\ProduceUnitCommandCommandCreator.cs" />
     <Compile Include="Assets\Scripts\UserControlSystem\UI\Model\CommandCreators\CommandCreatorBase.cs" />
@@ -774,6 +775,10 @@
     <ProjectReference Include="Zenject.csproj">
       <Project>{E87552AA-F639-666A-E904-B925EDB689DC}</Project>
       <Name>Zenject</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{90571F2E-73DD-13BF-3FFE-910FF75A1743}</Project>
+      <Name>UniRx</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

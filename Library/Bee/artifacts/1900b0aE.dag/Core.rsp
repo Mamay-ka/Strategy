@@ -355,12 +355,14 @@
 "Assets/Scripts/Core/CommandExecutors/AttackCommandExecutor.cs"
 "Assets/Scripts/Core/CommandExecutors/MoveCommandExecutor.cs"
 "Assets/Scripts/Core/CommandExecutors/PatrolCommandExecutor.cs"
+"Assets/Scripts/Core/CommandExecutors/ProduceUnitCommandExecutor.cs"
 "Assets/Scripts/Core/CommandExecutors/StopCommandExecutor.cs"
 "Assets/Scripts/Core/CoreInstaller.cs"
 "Assets/Scripts/Core/MainBuilding.cs"
 "Assets/Scripts/Core/MainUnit.cs"
 "Assets/Scripts/Core/TimeModel.cs"
 "Assets/Scripts/Core/UnitMovementStop.cs"
+"Assets/Scripts/Core/UnitProductionTask.cs"
 -langversion:9.0
 
 /deterministic

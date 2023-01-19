@@ -1,16 +1,12 @@
 using UnityEngine;
 using Zenject;
 public class UiModelInstaller : MonoInstaller
-{    [SerializeField] private AssetsContext _legacyContext;
-    [SerializeField] private Vector3Value _vector3Value;
-    [SerializeField] private SelectableValue _selectableValue;
-    [SerializeField] private AttackableValue _attackableValue; 
+{
+    [SerializeField] private Sprite _chomperSprite;
+    
     public override void InstallBindings()
     {
-        Container.Bind<AssetsContext>().FromInstance(_legacyContext);
-        Container.Bind<Vector3Value>().FromInstance(_vector3Value);
-        Container.Bind<SelectableValue>().FromInstance(_selectableValue);
-        Container.Bind<AttackableValue>().FromInstance(_attackableValue);
+        
 
 
         Container.Bind<CommandCreatorBase<IProduceUnitCommand>>()
@@ -23,6 +19,13 @@ public class UiModelInstaller : MonoInstaller
         .To<PatrolCommandCommandCreator>().AsTransient();
         Container.Bind<CommandCreatorBase<IStopCommand>>()
         .To<StopCommandCommandCreator>().AsTransient();
+
         Container.Bind<CommandButtonsModel>().AsTransient();
+
+        Container.Bind<float>().WithId("Chomper Variant 1").FromInstance(5f);
+        Container.Bind<string>().WithId("Chomper Variant 1").FromInstance("Chomper Variant 1");
+        Container.Bind<Sprite>().WithId("Chomper Variant 1").FromInstance(_chomperSprite);
+
+        Container.Bind<BottomCenterModel>().AsSingle();
     }
-}
+}
